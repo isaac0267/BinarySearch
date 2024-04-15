@@ -1,0 +1,25 @@
+# Compiled source #
+###################
+*.zip
+
+# Ignore CSV data files
+*.csv
+
+# Or if your CSV file has a specific name and/or is in a specific directory
+# data/ddo_fullforms.csv
+
+# Ignore directories that might contain large or private data
+data/
+
+# Ignore all log files and temporary files
+*.log
+*.tmp
+
+# Ignore all text files (if needed)
+*.txt
+
+# Other common folders/files to ignore
+node_modules/
+.env
+.DS_Store
+
